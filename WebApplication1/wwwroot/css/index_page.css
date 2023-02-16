@@ -1,0 +1,39 @@
+﻿.menu {
+    height: 6vh;
+    width: 100%;
+    background-color: #7C7C7C;
+    float: right;
+}
+.content {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(226, 129, 129);
+}
+
+.title {
+    /*這邊的寬度100%是抓menu設定的寬度*/
+    width: 100%;
+    /*寫一個適合的高度*/
+    height: 70px;
+    /*設定底色為#4A4A4A*/
+    background-color: #4A4A4A;
+}
+.menu .title .imgStyle {
+    width: 50px;
+}
+.menu .title .min_picture {
+    background: url('../js/image/Phanpy - 複製.jpg') no-repeat;
+    background-size: 50px auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    display: inline-block;
+}
+.content .banner {
+    width: 90vw; 
+    height: 40vh;
+    position:relative;
+    left:10px;
+    right:10px;
+    background-color: rgb(44, 154, 218);
+}
