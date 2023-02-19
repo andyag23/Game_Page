@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stanleykao\\source\\repos\\Young\\Young_Church\\WebApplication1\\Young_church.csproj": {}
+    "C:\\Users\\stanleykao\\source\\repos\\Game_Page\\WebApplication1\\Young_church.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stanleykao\\source\\repos\\Young\\Young_Church\\WebApplication1\\Young_church.csproj": {
+    "C:\\Users\\stanleykao\\source\\repos\\Game_Page\\WebApplication1\\Young_church.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stanleykao\\source\\repos\\Young\\Young_Church\\WebApplication1\\Young_church.csproj",
+        "projectUniqueName": "C:\\Users\\stanleykao\\source\\repos\\Game_Page\\WebApplication1\\Young_church.csproj",
         "projectName": "Young_church",
-        "projectPath": "C:\\Users\\stanleykao\\source\\repos\\Young\\Young_Church\\WebApplication1\\Young_church.csproj",
+        "projectPath": "C:\\Users\\stanleykao\\source\\repos\\Game_Page\\WebApplication1\\Young_church.csproj",
         "packagesPath": "C:\\Users\\stanleykao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stanleykao\\source\\repos\\Young\\Young_Church\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\stanleykao\\source\\repos\\Game_Page\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,6 +42,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Node.js": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
