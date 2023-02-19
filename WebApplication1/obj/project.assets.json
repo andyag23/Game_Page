@@ -1,55 +1,26 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Node.js/5.3.0": {
-        "type": "package"
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Node.js/5.3.0": {
-      "sha512": "WebrKeV0cXE4TaYriZQfDRNO/UMYnlQgR/CrHEx4kLgiRsY6F0Ve2UVS7qDHQHAjj/KXo3ygJY6HDhf91hwJDw==",
-      "type": "package",
-      "path": "node.js/5.3.0",
-      "hasTools": true,
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "content/.bin/node.cmd",
-        "node.exe",
-        "node.js.5.3.0.nupkg.sha512",
-        "node.js.nuspec",
-        "readme.txt",
-        "tools/bin_tools.ps1",
-        "tools/install.ps1",
-        "tools/uninstall.ps1"
-      ]
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Node.js >= 5.3.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\stanleykao\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\s9303\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stanleykao\\source\\repos\\Game_Page\\WebApplication1\\Young_church.csproj",
+      "projectUniqueName": "C:\\Users\\s9303\\source\\repos\\Game_Page\\WebApplication1\\Young_church.csproj",
       "projectName": "Young_church",
-      "projectPath": "C:\\Users\\stanleykao\\source\\repos\\Game_Page\\WebApplication1\\Young_church.csproj",
-      "packagesPath": "C:\\Users\\stanleykao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stanleykao\\source\\repos\\Game_Page\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\s9303\\source\\repos\\Game_Page\\WebApplication1\\Young_church.csproj",
+      "packagesPath": "C:\\Users\\s9303\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\s9303\\source\\repos\\Game_Page\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\stanleykao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\s9303\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -74,19 +45,14 @@
     "frameworks": {
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
-        "dependencies": {
-          "Node.js": {
-            "target": "Package",
-            "version": "[5.3.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -98,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

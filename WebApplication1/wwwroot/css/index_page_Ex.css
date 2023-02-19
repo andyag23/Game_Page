@@ -1,0 +1,143 @@
+﻿/*.container {
+    display:flex;
+}
+.nav-dev-ul{
+    display:flex;
+    margin-right:100px;
+    margin-left:100px;
+}
+.nav-Logo {
+    display:grid;
+    font-size:40px;
+    font-weight:bold;
+    margin-left:90px;
+    margin-right:50px;
+    padding:10px;
+    text-align:center;
+}
+.nav-item-ul {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.nav-item-li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 130px;
+    font-weight: bold;
+    align-self: flex-end;
+    text-align: center;
+    font-size:25px;
+}
+
+.nav-li-text {
+    text-decoration: none;
+}*/
+
+/*響應式*/
+
+body {
+    font-family: "Noto Sans","Microsoft JhengHei";
+}
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.header {
+    border-bottom: 1px solid #ea7070;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+.logo a {
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: #ea7070;
+    display: block;
+    text-decoration: none;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.menu-list {
+    float: right;
+}
+
+    .menu-list li {
+        float: left;
+        list-style:none;
+    }
+
+    .menu-list a {
+        display: flex;
+        text-decoration: none;
+        font-weight: 700;
+        color: #ea7070;
+    }
+
+        .menu-list a:hover {
+            color: #4bc2c5;
+        }
+
+.showmenu {
+    display: none;
+    float: right;
+    text-decoration: none;
+    color: #ea7070;
+    font-weight: 600;
+    padding: 1em;
+}
+
+@media(max-width: 768px) {
+    .menu-list {
+        /*隱藏選單開始*/
+        max-height: 0;
+        overflow: hidden;
+        /*隱藏選單end*/
+        position: absolute; /*追隨.header*/
+        /*讓選單從左到右延伸start*/
+        right: 0;
+        left: 0;
+        /*讓選單從左到右延伸end*/
+        top: 67px;
+        /*把menu-list位置移到.header下方。點擊menu滑出/因沒設header高度，所以用開發者工具看高多少*/
+        z-index: 100;
+        transition: all 2.5s;
+    }
+
+        .menu-list li {
+            float: none;
+            border-bottom: 1px solid #ea7070;
+            background: #f5f4e8;
+        }
+
+    .showmenu {
+        display: block;
+    }
+    /*jQ點擊後動態在 body 加上 class */
+    .menu-show .menu-list {
+        max-height: 336px;
+    }
+}
+
+.content {
+    padding: 5% 6%;
+}
+
+    .content p {
+        line-height: 1.8;
+        margin-bottom: 1.5em;
+    }
